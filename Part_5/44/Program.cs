@@ -1,7 +1,7 @@
 ﻿// 44. Найти точку пересечения двух прямых заданных уравнением y = k1 * x + b1, y = k2 * x + b2, b1 k1 и b2 и k2 заданы
 void LinesIntersection(double b1, double k1, double b2, double k2)
 {
-    if (k1 == 0 && k1 == -0)
+    if (k1 == 0 && k1 == 0)
     {
         Console.WriteLine("Palrallel lines");
     }
